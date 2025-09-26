@@ -11,16 +11,16 @@
 	// Constants
 	const values = [
 		{
-			title: "Innovation",
-			description: "Constantly challenging the status quo to create better solutions."
+			title: "Speed without compromise",
+			description: "Move at deal speed with AI that delivers complete analysis in minutes, not weeks. Because the best opportunities don't wait."
 		},
 		{
-			title: "Integrity",
-			description: "Building trust through transparent actions and honest communication."
+			title: "Precision at scale",
+			description: "Domain-trained AI agents extract the right insights from messy data sources, eliminating human error and bias from critical investment decisions."
 		},
 		{
-			title: "Impact",
-			description: "Measuring our success by the positive change we create for our clients."
+			title: "Transparency first",
+			description: "Every analysis is traceable and auditable. See exactly how we reached our conclusions so you can invest with complete confidence."
 		}
 	];
 </script>
@@ -33,7 +33,6 @@
 
 <!-- Story Section -->
 <Story
-	generating
 	paragraphs={[
 		"We started in 2018 with a simple goal: make helpful tech that people actually need. While many chase profits, we chose to do things differently.",
 		"Beyond making good products, we care about doing the right thing, being kind to our planet, and making sure everyone can use what we build. That's our compass.",
@@ -43,11 +42,10 @@
 />
 
 <!-- Our Culture Section -->
-<Culture {values} generating />
+<Culture {values} />
 
 <!-- StakeholderGrid Section -->
 <StakeholderGrid
-	generating
 	stakeholderType="team"
 	title="Our team."
 	subtitle="Your partners in innovation."
@@ -74,7 +72,6 @@
 />
 
 <StakeholderGrid
-	generating
 	stakeholderType="investor"
 	title="Backed by the best."
 	subtitle="Point Nine, TSIC and others"
@@ -96,8 +93,8 @@
 
 <!-- CTA Section -->
 <CallToAction
-	generating
-	title="Ready to collaborate?"
-	subtitle="Let's create something amazing"
-	description="Join the companies already leveraging our expertise to transform their digital presence and achieve their business goals."
+	title="Stop missing deals"
+	subtitle="Start making faster, smarter bets"
+	description="Join the top-tier firms analyzing 1000+ deals monthly with Levian. Get complete due diligence in minutes, not weeks. Your next unicorn investment is waiting."
+	imageSrc="/generated/image-a-group-of-professional-diverse-venture-.webp"
 />
