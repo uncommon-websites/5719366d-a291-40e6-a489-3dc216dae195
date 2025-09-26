@@ -24,9 +24,9 @@ It should ALWAYS have between 3 and 5 customers!
 	// Types
 	type Props = {
 		centered?: boolean;
-		title: string;
-		subtitle: string;
-		customers: Array<{
+		title?: string;
+		subtitle?: string;
+		customers?: Array<{
 			name: string;
 			position?: string;
 			imageSrc: string;

@@ -26,10 +26,9 @@
 </script>
 
 <SecondaryHero
-	generating
-	title="Solving world hunger"
-	subtitle="one step at a time"
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
+	title="Decisions should move at deal speed"
+	subtitle="Diligence done in hours, not weeks"
+	imageSrc="/generated/image-a-professional-diverse-team-of-men-and-w.webp"
 />
 
 <!-- Story Section -->
