@@ -6,16 +6,19 @@
 	import CallToAction from "$lib/components/layout/CallToAction.svelte";
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
-	import Hero from "$lib/components/layout/hero-sections/Hero.svelte";
+	import CustomerCardHero from "$lib/components/layout/hero-sections/CustomerCardHero.svelte";
 </script>
 
-<Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
-	generating
+<CustomerCardHero centered={true} />
+<LogoScroller 
+	label="Trusted by leading investment firms"
+	logoUrls={[
+		'https://cdn.brandfetch.io/sequoiacap.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/a16z.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/kleinerperkins.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/generalcatalyst.com/w/400/h/400/logo'
+	]}
 />
-<LogoScroller label="" generating />
 
 <Summary
 	generating

@@ -38,9 +38,35 @@ It should ALWAYS have between 3 and 5 customers!
 	};
 
 	let {
-		title,
-		subtitle,
-		customers = [],
+		title = "Trusted by leading venture capital firms",
+		subtitle = "Join top VC analysts who are accelerating their due diligence process with AI-powered insights, reducing analysis time by 75% while uncovering critical investment opportunities.",
+		customers = [
+			{
+				name: "Sarah Chen",
+				position: "Principal, Series A Fund",
+				imageSrc: "/generated/image-a-professional-asian-woman-dressed-in-sm.webp"
+			},
+			{
+				name: "Marcus Johnson",
+				position: "Partner, Growth Capital",
+				imageSrc: "/generated/image-a-professional-black-man-in-tailored-bus.webp"
+			},
+			{
+				name: "Emily Richardson",
+				position: "Associate, Early Stage",
+				imageSrc: "/generated/image-a-professional-white-woman-dressed-in-el.webp"
+			},
+			{
+				name: "Diego Martinez",
+				position: "VP, Investment Analysis",
+				imageSrc: "/generated/image-a-professional-latino-man-in-smart-offic.webp"
+			},
+			{
+				name: "Layla Hassan",
+				position: "Managing Partner, Tech Ventures",
+				imageSrc: "/generated/image-a-professional-middle-eastern-woman-vc-p.webp"
+			}
+		],
 		callsToAction = [cta],
 		centered = false,
 		...rest
