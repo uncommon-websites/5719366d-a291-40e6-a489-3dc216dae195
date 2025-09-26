@@ -57,24 +57,38 @@
 />
 
 <Features
-	generating
-	title="Features"
-	subtitle="Some features"
+	title="AI-powered due diligence at scale"
+	subtitle="Transform how your team analyzes investment opportunities with domain-trained AI agents"
 	features={[
 		{
-			title: "Streamlined Workflows",
+			title: "Intelligent deal analysis",
 			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings."
+				"Domain-trained AI agents automatically extract and analyze critical data points from pitch decks, financials, and market reports. Stop spending hours on manual data extraction and focus on high-value decision making."
 		},
 		{
-			title: "Data Analysis",
+			title: "Seamless data ingestion",
 			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors."
+				"Connect to any data source instantly—from CRM systems to financial databases—and watch as our platform automatically structures and validates information. No more hunting through scattered documents or incomplete data sets."
 		},
 		{
-			title: "Secure Collaboration",
+			title: "Real-time risk assessment",
 			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption."
+				"Get instant risk scores and detailed assessment reports the moment you upload deal documents. Our AI identifies potential red flags and investment opportunities faster than traditional manual review processes."
+		},
+		{
+			title: "Portfolio intelligence",
+			description:
+				"Track performance patterns across your entire portfolio with AI-powered insights that surface hidden correlations and predict outcomes. Make data-driven decisions with confidence and clarity."
+		},
+		{
+			title: "Market benchmarking",
+			description:
+				"Compare deals against comprehensive market data and similar transactions in real-time. Access competitive intelligence that positions your investment decisions within the broader market landscape."
+		},
+		{
+			title: "Collaborative workflows",
+			description:
+				"Enable your entire team to work from a single source of truth with built-in collaboration tools. Share insights, track decisions, and maintain audit trails without compromising data security."
 		}
 	]}
 />
